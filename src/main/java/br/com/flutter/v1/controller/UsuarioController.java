@@ -1,7 +1,6 @@
 package br.com.flutter.v1.controller;
 
 import br.com.flutter.v1.model.dto.UsuarioDTO;
-import br.com.flutter.v1.model.mapper.UsuarioMapper;
 import br.com.flutter.v1.services.UsuarioService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
