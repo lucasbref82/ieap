@@ -15,7 +15,6 @@ import java.util.List;
 public class UsuarioController {
 
     private final UsuarioService usuarioService;
-    private final UsuarioMapper usuarioMapper;
 
     @GetMapping
     public List<UsuarioDTO> listUsuario() {
@@ -39,6 +38,7 @@ public class UsuarioController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<?> deleteUsuario(@PathVariable Integer id) {
+        return ResponseEntity.noContent().build();
     }
 
 }
